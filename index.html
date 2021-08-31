@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etch-a-Sketch</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="titleContainer">
+    <h1>Etch-a-Sketch</h1>
+  </div>
+  <main>
+  <div id="mainDiv">
+    <div id="btnContainer">
+      <div>
+        <label for="colorSelector">Color: </label>
+        <input type="color" id="colorBtn" value="#e66465">
+      </div>
+      <button id="rainbowBtn" type="button">Rainbow</button>
+      <button id="defaultBtn" type="button">Default Color</button> 
+      <button id="gridBtn" type="button">Grid</button>
+      <button id="sizeBtn" type="button">Resize Grid</button>
+      <button id="eraserBtn" type="button">Eraser</button>
+      <button id="clearBtn" type="button">Clear</button>
+  </div>    
+    <div id="divContainer" class="cellGrid"></div>
+  </div>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
